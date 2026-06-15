@@ -9,7 +9,6 @@ plt.close('all')
 
 # Create figure with specific size and position
 fig = plt.figure(figsize=(12, 7))
-# Center the figure on screen (optional - works with TkAgg backend)
 try:
     fig.canvas.manager.window.move(
         int(fig.canvas.manager.window.winfo_screenwidth()/2 - 600),
